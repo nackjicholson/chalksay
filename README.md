@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nackjicholson/chalksay.svg?branch=master)](https://travis-ci.org/nackjicholson/chalksay)
+
 # chalksay
 When you chalksay, you turn `console.log` into `console.fun`!
 

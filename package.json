@@ -1,0 +1,56 @@
+{
+  "name": "chalksay",
+  "version": "1.0.0",
+  "description": "When you chalksay, you turn console.log into console.fun!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nackjicholson/chalksay.git"
+  },
+  "keywords": [
+    "chalk",
+    "say",
+    "ansi",
+    "styles",
+    "fun",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "ansi",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "author": "Will Vaughn <willieviseoae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nackjicholson/chalksay/issues"
+  },
+  "homepage": "https://github.com/nackjicholson/chalksay",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "ansi-styles": "^2.0.1",
+    "leche": "^2.1.1",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0",
+    "sinon": "^1.14.1"
+  }
+}

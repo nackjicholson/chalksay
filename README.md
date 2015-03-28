@@ -3,6 +3,8 @@
 # chalksay
 When you chalksay, you turn `console.log` into `console.fun`!
 
+[![NPM](https://nodei.co/npm/chalksay.png)](https://nodei.co/npm/chalksay/)
+
 #### Usage
 
 chalksay is really just a shortcut for the thing you want to do with chalk 90% of the time.
@@ -20,6 +22,10 @@ chalksay.blue('Say something blue');
 ```
 
 All of the chalk styles are supported. Go nuts! Say things in style!
+
+#### Install
+
+`npm install chalksay`
 
 #### Test
 

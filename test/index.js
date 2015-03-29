@@ -5,6 +5,8 @@ var should = require('should');
 var sinon = require('sinon');
 var withData = require('leche').withData;
 
+var chalksay = require('../');
+
 var styles = [
   'reset',
   'bold',
@@ -39,11 +41,8 @@ var testData = styles.map(function(style) {
 });
 
 describe('chalksay', function() {
-  var chalksay;
-
   beforeEach(function() {
     sinon.spy(console, 'log');
-    chalksay = require('../');
   });
 
   afterEach(function() {

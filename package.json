@@ -1,7 +1,7 @@
 {
   "name": "chalksay",
   "version": "1.0.1",
-  "description": "When you chalksay, you turn console.log into console.fun!",
+  "description": "Turns console.log into console.fun!",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

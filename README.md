@@ -1,33 +1,45 @@
 [![Build Status](https://travis-ci.org/nackjicholson/chalksay.svg?branch=master)](https://travis-ci.org/nackjicholson/chalksay)
 
 # chalksay
-When you chalksay, you turn `console.log` into `console.fun`!
+Turns `console.log` into `console.fun`!
 
 [![NPM](https://nodei.co/npm/chalksay.png)](https://nodei.co/npm/chalksay/)
 
-#### Usage
+![screenshot](https://github.com/sindresorhus/ansi-styles/raw/master/screenshot.png)
 
-chalksay is really just a shortcut for the thing you want to do with chalk 90% of the time.
+## Usage
+
+`chalksay` is just a shortcut for logging [`chalk`](https://github.com/sindresorhus/chalk) styled text. Which is what 
+you almost always want to do with `chalk` output.
+
+Plain ol' `chalk`:
 
 ```javascript
 var chalk = require('chalk');
 console.log(chalk.blue('Say something blue'));
 ```
 
-Here's the same thing with chalksay:
+Even easier with `chalksay`:
 
 ```javascript
 var chalksay = require('chalksay');
 chalksay.blue('Say something blue');
 ```
 
-All of the chalk styles are supported. Go nuts! Say things in style!
+Yes, you can do variadic calls to chalksay:
 
-#### Install
+```javascript
+var chalksay = require('chalksay');
+chalksay.blue('Roses are blue,', 'Violets are blue,', 'Sugar is blue,', 'and so are you.');
+```
+
+All of the `chalk` styles are supported. Go nuts, say things in style!
+
+## Install
 
 `npm install chalksay`
 
-#### Test
+## Test
 
 The tests are colorful, run them it's fun.
 

@@ -52,11 +52,13 @@ describe('chalksay', function() {
 
   withData(testData, function(style, ansiOpen, ansiClose) {
     it('should say things in style', function() {
-      var expected = ansiOpen + 'foo' + ansiClose;
-      chalksay[style]('foo');
+      var expectedAlpha = ansiOpen + 'alpha' + ansiClose;
+      var expectedBravo = ansiOpen + 'bravo' + ansiClose;
+      chalksay[style]('alpha', 'bravo');
       console.log.calledOnce.should.equal(true);
-      console.log.args[0].should.have.length(1);
-      console.log.args[0][0].should.eql(expected);
+      console.log.args[0].should.have.length(2);
+      console.log.args[0][0].should.eql(expectedAlpha);
+      console.log.args[0][1].should.eql(expectedBravo);
     });
   });
 });
